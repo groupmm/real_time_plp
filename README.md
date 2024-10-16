@@ -4,29 +4,33 @@ This repository contains **code examples** and **notebooks** that accompany the 
 
 1. :blue_book: Peter Meier, Ching-Yu Chiu, and Meinard Müller  
    [**A Real-Time Beat Tracking System with Zero Latency and Enhanced Controllability**](https://transactions.ismir.net/articles/10.5334/tismir.189)  
-   Transactions of the International Society for Music Information Retrieval (TISMIR), 2024.
+   Transactions of the International Society for Music Information Retrieval (TISMIR), 7(1): 213–227, 2024.
 
 ```bibtex
 @article{MeierCM24_RealTimePLP_TISMIR,
-    author    = {Peter Meier and Ching-Yu Chiu and Meinard M{\"u}ller},
-    title     = {{A} Real-Time Beat Tracking System with Zero Latency and Enhanced Controllability},
-    journal   = {Transactions of the International Society for Music Information Retrieval ({TISMIR})},
-    year      = {2024},
-    doi       = {10.5334/tismir.189}
+  author  = {Peter Meier and Ching-Yu Chiu and Meinard M{\"u}ller},
+  title   = {{A} Real-Time Beat Tracking System with Zero Latency and Enhanced Controllability},
+  journal = {Transactions of the International Society for Music Information Retrieval ({TISMIR})},
+  year    = {2024},
+  volume  = {7},
+  number  = {1},
+  pages   = {213--227},
+  doi     = {10.5334/tismir.189}
 }
 ```
 
 2. :blue_book: Peter Meier, Simon Schwär, and Meinard Müller  
    [**A Real-Time Approach for Estimating Pulse Tracking Parameters for Beat-Synchronous Audio Effects**](https://github.com/IoSR-Surrey/DAFx24-Proceedings/raw/main/papers/DAFx24_paper_23.pdf)  
-   In Proceedings of the International Conference on Digital Audio Effects (DAFx), 2024.
+   In Proceedings of the International Conference on Digital Audio Effects (DAFx): 314–321, 2024.
 
 ```bibtex
 @inproceedings{MeierSM24_RealTimePulseParameters_DAFX,
-    title       = {{A} Real-Time Approach for Estimating Pulse Tracking Parameters for Beat-Synchronous Audio Effects},
-    author      = {Peter Meier and Simon Schw{\"a}r and Meinard M{\"u}ller},
-    booktitle   = {Proceedings of the International Conference on Digital Audio Effects ({DAFx})},
-    year        = {2024},
-    address     = {Guildford, Surrey, UK}
+  author    = {Peter Meier and Simon Schw{\"a}r and Meinard M{\"u}ller},
+  title     = {{A} Real-Time Approach for Estimating Pulse Tracking Parameters for Beat-Synchronous Audio Effects},
+  booktitle = {Proceedings of the International Conference on Digital Audio Effects ({DAFx})},
+  address   = {Guildford, Surrey, {UK}},
+  year      = {2024},
+  pages     = {314--321}
 }
 ```
 
@@ -172,6 +176,10 @@ All output files are resampled to match the sampling rate of the input file.
 The file `inputfile_tempo.wav` provides the frame-based tempo values from the real-time beat tracker, with tempo values ranging from `[LOW, HIGH]` mapped to the range `[-1, 1]` within the waveform.
 
 In `inputfile_beats.wav`, all values are set to zero by default, except for the samples at beat time positions, which are encoded with a value of 1.
+
+## License
+
+This project is licensed under the **MIT License** - see the [LICENSE](./LICENSE) file for details.
 
 ## Acknowledgements
 
